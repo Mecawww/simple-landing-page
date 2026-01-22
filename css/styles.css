@@ -86,3 +86,40 @@ nav {
 .hero-image p{
     color: #E5E7EB;
 }
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    width: 1100px; 
+    margin: 0 auto; 
+    align-items: center;
+}
+
+.main-info h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 25px 0 25px 0;
+}
+
+.info-panels {
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+}
+
+.panel-placeholder {
+    height: 150px; 
+    width: 150px; 
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.panel {
+    max-width: 200px;
+}
+
+.panel p {
+    max-width: 150px;
+    text-align: center;
+}
