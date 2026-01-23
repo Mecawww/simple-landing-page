@@ -198,3 +198,12 @@ nav {
     font-weight: bold;
 }
 
+footer {
+    background-color: #1F2937;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
