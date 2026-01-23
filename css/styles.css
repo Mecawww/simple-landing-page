@@ -154,3 +154,47 @@ nav {
     font-size: 20px;
     font-weight: 900;
 }
+
+.cta-container {
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    width: 1100px; 
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.cta-text h6 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0; 
+    color: #F9FAF8;
+}
+
+.cta-text p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0; 
+    color: #F9FAF8;
+}
+
+.cta-button button {
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 6px 25px;
+    background-color: #3882F6;
+    font-size: 15px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
